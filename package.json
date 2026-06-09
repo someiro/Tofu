@@ -1,0 +1,32 @@
+{
+  "name": "tofu",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/someiro/Tofu#readme",
+  "bugs": {
+    "url": "https://github.com/someiro/Tofu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someiro/Tofu.git"
+  },
+  "license": "ISC",
+  "author": "someiro",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1064.0",
+    "@aws-sdk/s3-request-presigner": "^3.1064.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
