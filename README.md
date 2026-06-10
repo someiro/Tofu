@@ -1,6 +1,6 @@
 <div align="center">
     <h1>📛 Tofu</h1>
-    <p>S3 ストレージ読取専用ゲートウェイ</p>
+    <p>S3 ストレージ向け軽量ゲートウェイ</p>
 </div>
 
 ## ❓ What's This ?
